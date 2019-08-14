@@ -26,6 +26,7 @@ public class StarShow {
 		int starSize = 25;
 
 		// 12. Use a for loop to repeat steps #19 to #18, 30 times
+		for(int i=0;i<30;i++) {
 	
 
 			// 19. Set the pen width to i 
