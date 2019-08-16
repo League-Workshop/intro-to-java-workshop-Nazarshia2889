@@ -41,14 +41,20 @@ public class StarShow {
 		drawStar(starSize);
 	
 			// 14. Increase the value of the X position variable by star size. See Figure 2
+		x = x + starSize;
 	
 			// 15. decrease the value of the Y position variable by star size. See Figure 3
+		y = y - starSize;
 	
 			// 16. Increase the star size by 20
+		starSize = starSize + 20;
 	
 			// 17. Turn the robot 12 degrees
+		walle.turn(12);
 	
 			// 18. Make each star a different random color like in Figure 4
+		walle.
+		}
 
 	}
 
