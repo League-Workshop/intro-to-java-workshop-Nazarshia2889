@@ -15,6 +15,7 @@ public class StarShow {
 		
 			//5. delete this line. You will draw the star again in step 8.
 		// 13. Set the speed to 8
+		walle.setSpeed(100);
 
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
 		int x = 10;
@@ -53,7 +54,7 @@ public class StarShow {
 		walle.turn(12);
 	
 			// 18. Make each star a different random color like in Figure 4
-		walle.
+		walle.setRandomPenColor();
 		}
 
 	}
